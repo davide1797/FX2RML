@@ -1,0 +1,10 @@
+prefixes
+	matrix = this
+	p = http://p
+	
+instances
+	row
+		p/type = $["Matrix"]^^xsd:string
+		p/description = $["Description"]^^xsd:string
+		class = 
+			p/matrix
