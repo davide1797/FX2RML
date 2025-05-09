@@ -1,0 +1,19 @@
+prefixes
+	suicides = this
+	s = http://suicide
+	
+instances
+	s/suicide
+		s/label = $["INDICATOR"]^^xsd:string
+		s/unit = $["UNIT"]^^xsd:string
+		s/number = $["UNIT_NUM"]^^xsd:int
+		s/stub_name = $["STUB_NAME"]^^xsd:string
+		s/stub_name_num = $["STUB_NAME_NUM"]^^xsd:int
+		s/stub_label = $["STUB_LABEL"]^^xsd:string
+		s/stub_label_num = $["STUB_LABEL_NUM"]^^xsd:int
+		s/year = $["YEAR"]^^xsd:string
+		s/year_num = $["YEAR_NUM"]^^xsd:int
+		s/age = $["AGE"]^^xsd:string
+		s/age_num = $["AGE_NUM"]^^xsd:int
+		s/estimate = $["ESTIMATE"]^^xsd:real
+		s/flag = $["FLAG"]^^xsd:string
