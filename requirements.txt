@@ -1,0 +1,6 @@
+hashlib
+rdflib
+pandas
+ast
+re
+argparse
